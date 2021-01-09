@@ -24,8 +24,8 @@ public class App
 
         System.out.println( "Hello World!" );
         AWSCredentials credentials = new BasicAWSCredentials(
-                "AKIAVVLEPH23ICTQLHCW",
-                "eaK3mucyFm8lnkG2CAMkP0+Jq1EY10Ptjn0v7cnU"
+                "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
         AmazonS3 s3client = AmazonS3ClientBuilder
                 .standard()
